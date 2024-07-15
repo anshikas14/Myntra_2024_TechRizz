@@ -1,0 +1,46 @@
+#* Get Weather Key
+GET http://localhost:9000/weatherApiKey
+
+###
+@url = "http://localhost:9000"
+
+### Create a new User
+POST http://localhost:9000/users/signup
+Content-Type: application/json
+
+{
+    "username": "eleni3",
+    "email": "eleni3@gmail.com",
+    "password": "1234567890"
+
+}
+
+### User Login 
+POST {{url}}/login
+Content-Type: application/json
+
+{
+    "username": "Test 1",
+    "email": "test1@example.org",
+    "password": "12345678",
+    
+}
+
+### Create a new cloth item
+POST {{url}}/upload
+Content-Type: application/json
+
+{
+    "type": 
+    
+    
+
+}
+
+###
+
+// Get all fav clothes
+GET http://localhost:9000/cloth/fav
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmJjMGFmYWU4ZTE1N2UyOWMxY2FlZDAiLCJpYXQiOjE2NTY0OTA3NDYsImV4cCI6MTY1NjUwODc0Nn0.wjZ1a_I2Tw1BSFmpPLfWg890Vc5DW6gAeltuub0tD9M
+
+
