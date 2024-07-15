@@ -1,4 +1,4 @@
-# Garderoba-backend
+# PocketCloset-backend
 
 This is the backend code base for our final project at DCI. PocketCloset is a react-native-mobile App. 
 . 
