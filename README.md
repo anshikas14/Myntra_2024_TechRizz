@@ -1,7 +1,7 @@
 # Myntra_2024_TechRizz
 
 # PocketCloset
-This is the frontend code base for our final project at DCI. 
+This is the frontend code base for our project at Myntra Hackerramp'24. 
 PocketCloset is a react-native mobile App that helps users digitise their wardrobe and makes outfit suggestions according to the weather. 
 
 
